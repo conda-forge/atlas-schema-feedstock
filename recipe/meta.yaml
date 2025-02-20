@@ -1,5 +1,5 @@
 {% set name = "atlas-schema" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/atlas_schema-{{ version }}.tar.gz
-  sha256: e000f780f1d8d38bf00ad10333e0edd78fa160158464634189c8a7994c01efb2
+  sha256: 8a37ee5333c0f1cfbff67136209a385a7e16aa2ed44406e6cca184eebc3270ca
 
 build:
   noarch: python
