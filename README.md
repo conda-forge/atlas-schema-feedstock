@@ -11,7 +11,7 @@ Summary: Helper python package for ATLAS Common NTuple Analysis work.
 
 Development: https://github.com/scipp-atlas/atlas-schema/
 
-Documentation: https://atlas-schema.readthedocs.io/en/v0.2.3/
+Documentation: https://atlas-schema.readthedocs.io/en/v0.2.4/
 
 Python package containing schemas and helper functions enabling
 analyzers to work with ATLAS datasets (Monte Carlo and Data), using
