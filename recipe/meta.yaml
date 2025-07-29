@@ -23,7 +23,7 @@ requirements:
     - hatch-vcs >=0.3.0
   run:
     - python >={{ python_min }}
-    - coffea >=2024.10.0
+    - coffea >=2025.7.0
     - particle >=0.25.0
     # below are for coffea[dask]
     - distributed >=2024.3.0
