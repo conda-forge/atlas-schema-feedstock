@@ -7,13 +7,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/45/33/4f88384403c3974c82f0296615c6e5f5114ca3d8fd920fa3196e4d619cb0/atlas_schema-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/atlas_schema-{{ version }}.tar.gz
   sha256: e9fe77d3026ac13d1e7c1c139b35704829cccad67f267bb34abbd30fd3eee836
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
