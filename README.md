@@ -11,7 +11,7 @@ Summary: Helper python package for ATLAS Common NTuple Analysis work.
 
 Development: https://github.com/scipp-atlas/atlas-schema/
 
-Documentation: https://atlas-schema.readthedocs.io/en/v0.4.1/
+Documentation: https://atlas-schema.readthedocs.io/en/v0.5.0/
 
 Python package containing schemas and helper functions enabling
 analyzers to work with ATLAS datasets (Monte Carlo and Data), using
@@ -22,10 +22,11 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23980&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/atlas-schema-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/atlas-schema-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/atlas-schema-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
